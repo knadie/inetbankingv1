@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Inetbankingv1">
+	<listners>
+		<listner class-name="C:\Users\user\.eclipse\Inetbankingv1\src\test\java\com\inetbanking\utilities\Reporting.java" />
+	</listners>
+
+	<test name="Banking app">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.inetbanking.testcases.Tc_loginTest_01"/>
+			<class name="com.inetbanking.testcases.Tc_addnewcustomer_02" />
+		</classes>
+	</test>
+</suite> 

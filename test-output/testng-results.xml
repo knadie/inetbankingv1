@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Inetbankingv1" duration-ms="36399" started-at="2021-08-05T11:38:12 IST" finished-at="2021-08-05T11:38:48 IST">
+    <groups>
+    </groups>
+    <test name="Banking app" duration-ms="36399" started-at="2021-08-05T11:38:12 IST" finished-at="2021-08-05T11:38:48 IST">
+      <class name="com.inetbanking.testcases.Tc_loginTest_01">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.Tc_loginTest_01@1d0685f]" name="setup" is-config="true" duration-ms="6690" started-at="2021-08-05T11:38:12 IST" finished-at="2021-08-05T11:38:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.inetbanking.testcases.Tc_loginTest_01@1d0685f]" name="logintest" duration-ms="5058" started-at="2021-08-05T11:38:19 IST" finished-at="2021-08-05T11:38:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testcases.Tc_loginTest_01@1d0685f]" name="tearDown" is-config="true" duration-ms="1550" started-at="2021-08-05T11:38:24 IST" finished-at="2021-08-05T11:38:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testcases.Tc_loginTest_01 -->
+      <class name="com.inetbanking.testcases.Tc_addnewcustomer_02">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.Tc_addnewcustomer_02@e6aa2]" name="setup" is-config="true" duration-ms="2401" started-at="2021-08-05T11:38:25 IST" finished-at="2021-08-05T11:38:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addnewcust()[pri:0, instance:com.inetbanking.testcases.Tc_addnewcustomer_02@e6aa2]" name="addnewcust" duration-ms="19698" started-at="2021-08-05T11:38:28 IST" finished-at="2021-08-05T11:38:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewcust -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testcases.Tc_addnewcustomer_02@e6aa2]" name="tearDown" is-config="true" duration-ms="923" started-at="2021-08-05T11:38:48 IST" finished-at="2021-08-05T11:38:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testcases.Tc_addnewcustomer_02 -->
+    </test> <!-- Banking app -->
+  </suite> <!-- Inetbankingv1 -->
+</testng-results>
